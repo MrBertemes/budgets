@@ -1,0 +1,58 @@
+{
+    "@@locale": "es",
+    "@@context": "Textos usados en la aplicación",
+  
+    "mensagemErroMain": "'Algo salió mal al iniciar la aplicación\n¡Intenta cerrar y volver a abrirla!'",
+    "@mensagemErroMain": {"comment": "Mensaje de error si la aplicación no puede abrir el Hive"},
+  
+    "mensagemErroAllBudgets": "Algo salió mal al buscar los presupuestos\n¡Intenta cerrar y volver a abrirla!",
+    "@mensagemErroAllBudgets": {"comment": "Mensaje de error si la aplicación no puede obtener los presupuestos de Hive"},
+  
+    "mensagemSemBudgetCadastrado": "¡No hay presupuestos registrados!",
+    "@mensagemSemBudgetCadastrado": {"comment": "Mensaje al usuario si no hay presupuestos registrados"},
+  
+    "mensagemSemBudgetAtivo": "¡No hay presupuestos activos!",
+    "@mensagemSemBudgetAtivo": {"comment": "Mensaje al usuario si no hay presupuestos activos"},
+  
+    "gastos": "Gastos",
+    "@gastos": {"comment": "Palabra que aparece en la tarjeta mostrando cuánto se ha gastado del presupuesto"},
+  
+    "mensagemConfirmacaoExlcusao": "¿Estás seguro de que deseas eliminar este presupuesto?",
+    "@mensagemConfirmacaoExlcusao": {"comment": "Mensaje para confirmar que el usuario realmente quiere eliminar el presupuesto"},
+  
+    "cancelar": "Cancelar",
+    "@cancelar": {"comment": "Botón de cancelar"},
+  
+    "excluir": "Eliminar",
+    "@excluir": {"comment": "Botón de eliminar"},
+  
+    "adicionarBudget": "Añadir Nuevo Presupuesto",
+    "@adicionarBudget": {"comment": "Título del pop-up al añadir un nuevo presupuesto"},
+  
+    "nomeBudget": "Nombre del Presupuesto",
+    "@nomeBudget": {"comment": "Texto del campo para introducir el nombre del presupuesto"},
+  
+    "mensagemErroNomeBudget": "Por favor, ingresa el nombre del presupuesto",
+    "@mensagemErroNomeBudget": {"comment": "Mensaje de error al indicar que el nombre del presupuesto no es válido"},
+  
+    "valorMaximo": "Valor Máximo",
+    "@valorMaximo": {"comment": "Texto del campo para ingresar el valor máximo del presupuesto"},
+  
+    "mensagemErroValorVazioBudget": "Por favor, ingresa el valor máximo",
+    "@mensagemErroValorVazioBudget": {"comment": "Mensaje al usuario para indicar que no puede dejar el campo de valor vacío al registrar un presupuesto"},
+  
+    "mensagemErroValorInvalidoBudget": "Por favor, ingresa un valor válido",
+    "@mensagemErroValorInvalidoBudget": {"comment": "Mensaje al usuario para indicar que el valor ingresado no es válido"},
+  
+    "selecionarData": "Seleccionar Fecha",
+    "@selecionarData": {"comment": "Texto indicando que se debe seleccionar una fecha"},
+  
+    "dataEncerramento": "Fecha de Cierre",
+    "@dataEncerramento": {"comment": "Texto indicando la fecha seleccionada"},
+  
+    "salvar": "Guardar",
+    "@salvar": {"comment": "Botón de guardar"},
+  
+    "apenasAtivos": "Solo Activos",
+    "@apenasAtivos": {"comment": "Texto del botón switch para mostrar solo presupuestos activos"}
+  }  

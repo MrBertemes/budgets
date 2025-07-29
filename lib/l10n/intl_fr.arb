@@ -1,0 +1,59 @@
+{
+    "@@locale": "fr",
+    "@@context": "Textes utilisés dans l'application",
+  
+    "mensagemErroMain": "'Une erreur est survenue lors du démarrage de l'application\nEssayez de fermer et de rouvrir l'application !'",
+    "@mensagemErroMain": {"comment": "Message d'erreur si l'application ne parvient pas à ouvrir le Hive"},
+  
+    "mensagemErroAllBudgets": "Une erreur est survenue lors de la récupération des budgets\nEssayez de fermer et de rouvrir l'application !",
+    "@mensagemErroAllBudgets": {"comment": "Message d'erreur si l'application ne parvient pas à obtenir les budgets de Hive"},
+  
+    "mensagemSemBudgetCadastrado": "Aucun budget enregistré !",
+    "@mensagemSemBudgetCadastrado": {"comment": "Message à l'utilisateur si aucun budget n'est enregistré"},
+  
+    "mensagemSemBudgetAtivo": "Aucun budget actif !",
+    "@mensagemSemBudgetAtivo": {"comment": "Message à l'utilisateur si aucun budget actif n'existe"},
+  
+    "gastos": "Dépenses",
+    "@gastos": {"comment": "Mot affiché sur la carte indiquant combien a été dépensé du budget"},
+  
+    "mensagemConfirmacaoExlcusao": "Êtes-vous sûr de vouloir supprimer ce budget ?",
+    "@mensagemConfirmacaoExlcusao": {"comment": "Message pour confirmer que l'utilisateur souhaite vraiment supprimer le budget"},
+  
+    "cancelar": "Annuler",
+    "@cancelar": {"comment": "Bouton d'annulation"},
+  
+    "excluir": "Supprimer",
+    "@excluir": {"comment": "Bouton de suppression"},
+  
+    "adicionarBudget": "Ajouter un Nouveau Budget",
+    "@adicionarBudget": {"comment": "Titre du pop-up lors de l'ajout d'un nouveau budget"},
+  
+    "nomeBudget": "Nom du Budget",
+    "@nomeBudget": {"comment": "Texte du champ pour entrer le nom du budget"},
+  
+    "mensagemErroNomeBudget": "Veuillez entrer le nom du budget",
+    "@mensagemErroNomeBudget": {"comment": "Message d'erreur pour indiquer que le nom du budget est invalide"},
+  
+    "valorMaximo": "Valeur Maximale",
+    "@valorMaximo": {"comment": "Texte du champ pour entrer la valeur maximale du budget"},
+  
+    "mensagemErroValorVazioBudget": "Veuillez entrer la valeur maximale",
+    "@mensagemErroValorVazioBudget": {"comment": "Message à l'utilisateur pour indiquer que le champ de valeur ne peut pas être vide lors de l'enregistrement d'un budget"},
+  
+    "mensagemErroValorInvalidoBudget": "Veuillez entrer une valeur valide",
+    "@mensagemErroValorInvalidoBudget": {"comment": "Message pour indiquer que la valeur saisie n'est pas valide"},
+  
+    "selecionarData": "Sélectionner la Date",
+    "@selecionarData": {"comment": "Texte indiquant qu'une date doit être sélectionnée"},
+  
+    "dataEncerramento": "Date de Clôture",
+    "@dataEncerramento": {"comment": "Texte indiquant la date sélectionnée"},
+  
+    "salvar": "Sauvegarder",
+    "@salvar": {"comment": "Bouton de sauvegarde"},
+  
+    "apenasAtivos": "Actifs Seulement",
+    "@apenasAtivos": {"comment": "Texte pour le bouton switch pour afficher uniquement les budgets actifs"}
+  }
+  
