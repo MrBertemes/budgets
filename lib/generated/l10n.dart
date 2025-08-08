@@ -229,6 +229,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Add Expense`
+  String get adicionarGasto {
+    return Intl.message(
+      'Add Expense',
+      name: 'adicionarGasto',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Expense's name`
+  String get nomeGasto {
+    return Intl.message(
+      'Expense\'s name',
+      name: 'nomeGasto',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Expense's value`
+  String get valorGasto {
+    return Intl.message(
+      'Expense\'s value',
+      name: 'valorGasto',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please, enter a name`
+  String get mensagemErroNomeGasto {
+    return Intl.message(
+      'Please, enter a name',
+      name: 'mensagemErroNomeGasto',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "adicionarBudget":
             MessageLookupByLibrary.simpleMessage("Ajouter un Nouveau Budget"),
+        "adicionarGasto":
+            MessageLookupByLibrary.simpleMessage("Ajouter une dépense"),
         "apenasAtivos":
             MessageLookupByLibrary.simpleMessage("Actifs Seulement"),
         "cancelar": MessageLookupByLibrary.simpleMessage("Annuler"),
@@ -39,6 +41,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "\'Une erreur est survenue lors du démarrage de l\'application\nEssayez de fermer et de rouvrir l\'application !\'"),
         "mensagemErroNomeBudget": MessageLookupByLibrary.simpleMessage(
             "Veuillez entrer le nom du budget"),
+        "mensagemErroNomeGasto":
+            MessageLookupByLibrary.simpleMessage("Veuillez entrer un nom"),
         "mensagemErroValorInvalidoBudget": MessageLookupByLibrary.simpleMessage(
             "Veuillez entrer une valeur valide"),
         "mensagemErroValorVazioBudget": MessageLookupByLibrary.simpleMessage(
@@ -48,9 +52,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "mensagemSemBudgetCadastrado":
             MessageLookupByLibrary.simpleMessage("Aucun budget enregistré !"),
         "nomeBudget": MessageLookupByLibrary.simpleMessage("Nom du Budget"),
+        "nomeGasto": MessageLookupByLibrary.simpleMessage("Nom de la dépense"),
         "salvar": MessageLookupByLibrary.simpleMessage("Sauvegarder"),
         "selecionarData":
             MessageLookupByLibrary.simpleMessage("Sélectionner la Date"),
+        "valorGasto":
+            MessageLookupByLibrary.simpleMessage("Valeur de la dépense"),
         "valorMaximo": MessageLookupByLibrary.simpleMessage("Valeur Maximale")
       };
 }

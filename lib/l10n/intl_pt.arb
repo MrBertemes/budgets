@@ -1,58 +1,92 @@
 {
   "@@locale": "pt_BR",
   "@@context": "Textos usados no aplicativo",
-
   "mensagemErroMain": "'Algo deu errado ao iniciar o app\nTente fechar e abrir novamente!'",
-  "@mensagemErroMain": {"comment": "Mensagem de erro caso o aplicativo falhar em abrir o Hive"},
-
+  "@mensagemErroMain": {
+    "comment": "Mensagem de erro caso o aplicativo falhar em abrir o Hive"
+  },
   "mensagemErroAllBudgets": "Algo deu errado ao buscar pelos budgets\nTente fechar e abrir novamente!",
-  "@mensagemErroAllBudgets": {"comment": "Mensagem de erro caso o aplicativo falhar em pegar os budgets do Hive"},
-
+  "@mensagemErroAllBudgets": {
+    "comment": "Mensagem de erro caso o aplicativo falhar em pegar os budgets do Hive"
+  },
   "mensagemSemBudgetCadastrado": "Não há orçamentos cadastrados!",
-  "@mensagemSemBudgetCadastrado": {"comment": "Mensagem ao usuário caso não houver budgets cadastrados"},
-
+  "@mensagemSemBudgetCadastrado": {
+    "comment": "Mensagem ao usuário caso não houver budgets cadastrados"
+  },
   "mensagemSemBudgetAtivo": "Não há orçamentos ativos!",
-  "@mensagemSemBudgetAtivo": {"comment": "Mensagem ao usuário caso não houver budgets artivos"},
-
+  "@mensagemSemBudgetAtivo": {
+    "comment": "Mensagem ao usuário caso não houver budgets artivos"
+  },
   "gastos": "Gastos",
-  "@gastos": {"comment": "Palavra que fica no card mostrando o quanto foi gasto do orçamento"},
-
+  "@gastos": {
+    "comment": "Palavra que fica no card mostrando o quanto foi gasto do orçamento"
+  },
   "mensagemConfirmacaoExlcusao": "Você tem certeza que deseja excluir este budget?",
-  "@mensagemConfirmacaoExlcusao": {"comment": "Mensagem ao usuário confirmando que ele quer realmente excluir o orçamento"},
-
+  "@mensagemConfirmacaoExlcusao": {
+    "comment": "Mensagem ao usuário confirmando que ele quer realmente excluir o orçamento"
+  },
   "cancelar": "Cancelar",
-  "@cancelar": {"comment": "Botão de cancelar"},
-
+  "@cancelar": {
+    "comment": "Botão de cancelar"
+  },
   "excluir": "Excluir",
-  "@excluir": {"comment": "Botão de excluir"},
-
+  "@excluir": {
+    "comment": "Botão de excluir"
+  },
   "adicionarBudget": "Adicionar Novo Orçamento",
-  "@adicionarBudget": {"comment": "Título do pop-up na adição de um novo budget"},
-
+  "@adicionarBudget": {
+    "comment": "Título do pop-up na adição de um novo budget"
+  },
   "nomeBudget": "Nome do Orçamento",
-  "@nomeBudget": {"comment": "Texto do campo para inserir o nome do orçamento"},
-
+  "@nomeBudget": {
+    "comment": "Texto do campo para inserir o nome do orçamento"
+  },
   "mensagemErroNomeBudget": "Por favor, insira o nome do orçamento",
-  "@mensagemErroNomeBudget": {"comment": "Mensagem de erro ao usuário para indicar que o nome colocado no cadastro do orçamento não é válido"},
-
+  "@mensagemErroNomeBudget": {
+    "comment": "Mensagem de erro ao usuário para indicar que o nome colocado no cadastro do orçamento não é válido"
+  },
   "valorMaximo": "Valor Máximo",
-  "@valorMaximo": {"comment": "Texto do campo para inserir o valor máximo do orçamento"},
-
+  "@valorMaximo": {
+    "comment": "Texto do campo para inserir o valor máximo do orçamento"
+  },
   "mensagemErroValorVazioBudget": "Por favor, insira o valor máximo",
-  "@mensagemErroValorVazioBudget": {"comment": "Mensagem ao usuário para indicar que não pode deixar o campo de valor em branco ao cadastrar um orçamento"},
-
+  "@mensagemErroValorVazioBudget": {
+    "comment": "Mensagem ao usuário para indicar que não pode deixar o campo de valor em branco ao cadastrar um orçamento"
+  },
   "mensagemErroValorInvalidoBudget": "Por favor, insira um valor válido",
-  "@mensagemErroValorInvalidoBudget": {"comment": "Mensagem ao usuário para indicar ao usuário que o valor inserido não é válido"},
-
+  "@mensagemErroValorInvalidoBudget": {
+    "comment": "Mensagem ao usuário para indicar ao usuário que o valor inserido não é válido"
+  },
   "selecionarData": "Selecionar Data",
-  "@selecionarData": {"comment": "Texto indicando que uma data deve ser selecionada"},
-
+  "@selecionarData": {
+    "comment": "Texto indicando que uma data deve ser selecionada"
+  },
   "dataEncerramento": "Data de Encerramento",
-  "@dataEncerramento": {"comment": "Texto indicando a data selecionada"},
-
+  "@dataEncerramento": {
+    "comment": "Texto indicando a data selecionada"
+  },
   "salvar": "Salvar",
-  "@salvar": {"comment": "Botão de salvar"},
-
+  "@salvar": {
+    "comment": "Botão de salvar"
+  },
   "apenasAtivos": "Apenas Ativos",
-  "@apenasAtivos": {"comment": "Texto do botão switch para mostrat apenas orçamentos ativos"}
+  "@apenasAtivos": {
+    "comment": "Texto do botão switch para mostrat apenas orçamentos ativos"
+  },
+  "adicionarGasto": "Adicionar gasto",
+  "@adicionarGasto": {
+    "comment": "Texto para o título de adicionar gasto"
+  },
+  "nomeGasto": "Nome do gasto",
+  "@nomeGasto": {
+    "comment": "Nome do gasto"
+  },
+  "valorGasto": "Valor do gasto",
+  "@valorGasto": {
+    "comment": "Valor do gasto"
+  },
+  "mensagemErroNomeGasto": "Por favor, insira um nome",
+  "@mensagemErroNomeGasto": {
+    "comment": "Texto indicando que é necessário inserir um nome para continuar"
+  }
 }

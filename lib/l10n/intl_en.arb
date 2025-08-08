@@ -1,59 +1,92 @@
 {
-    "@@locale": "en",
-    "@@context": "Texts used in the app",
-  
-    "mensagemErroMain": "'Something went wrong when starting the app\nPlease try closing and reopening it!'",
-    "@mensagemErroMain": {"comment": "Error message if the app fails to open the Hive"},
-  
-    "mensagemErroAllBudgets": "Something went wrong while fetching the budgets\nPlease try closing and reopening it!",
-    "@mensagemErroAllBudgets": {"comment": "Error message if the app fails to get the budgets from Hive"},
-  
-    "mensagemSemBudgetCadastrado": "No budgets registered!",
-    "@mensagemSemBudgetCadastrado": {"comment": "Message to the user if no budgets are registered"},
-  
-    "mensagemSemBudgetAtivo": "No active budgets!",
-    "@mensagemSemBudgetAtivo": {"comment": "Message to the user if no active budgets exist"},
-  
-    "gastos": "Expenses",
-    "@gastos": {"comment": "Word displayed on the card showing how much has been spent from the budget"},
-  
-    "mensagemConfirmacaoExlcusao": "Are you sure you want to delete this budget?",
-    "@mensagemConfirmacaoExlcusao": {"comment": "Message to confirm that the user really wants to delete the budget"},
-  
-    "cancelar": "Cancel",
-    "@cancelar": {"comment": "Cancel button"},
-  
-    "excluir": "Delete",
-    "@excluir": {"comment": "Delete button"},
-  
-    "adicionarBudget": "Add New Budget",
-    "@adicionarBudget": {"comment": "Title of the pop-up when adding a new budget"},
-  
-    "nomeBudget": "Budget Name",
-    "@nomeBudget": {"comment": "Text for the field to enter the budget name"},
-  
-    "mensagemErroNomeBudget": "Please, enter the budget name",
-    "@mensagemErroNomeBudget": {"comment": "Error message indicating that the entered budget name is invalid"},
-  
-    "valorMaximo": "Maximum Value",
-    "@valorMaximo": {"comment": "Text for the field to enter the maximum budget value"},
-  
-    "mensagemErroValorVazioBudget": "Please, enter the maximum value",
-    "@mensagemErroValorVazioBudget": {"comment": "Message indicating that the user cannot leave the value field empty when registering a budget"},
-  
-    "mensagemErroValorInvalidoBudget": "Please, enter a valid value",
-    "@mensagemErroValorInvalidoBudget": {"comment": "Message indicating that the entered value is invalid"},
-  
-    "selecionarData": "Select Date",
-    "@selecionarData": {"comment": "Text indicating that a date must be selected"},
-  
-    "dataEncerramento": "End Date",
-    "@dataEncerramento": {"comment": "Text indicating the selected date"},
-  
-    "salvar": "Save",
-    "@salvar": {"comment": "Save button"},
-  
-    "apenasAtivos": "Active Only",
-    "@apenasAtivos": {"comment": "Text for the switch button to show only active budgets"}
+  "@@locale": "en",
+  "@@context": "Texts used in the app",
+  "mensagemErroMain": "'Something went wrong when starting the app\nPlease try closing and reopening it!'",
+  "@mensagemErroMain": {
+    "comment": "Error message if the app fails to open the Hive"
+  },
+  "mensagemErroAllBudgets": "Something went wrong while fetching the budgets\nPlease try closing and reopening it!",
+  "@mensagemErroAllBudgets": {
+    "comment": "Error message if the app fails to get the budgets from Hive"
+  },
+  "mensagemSemBudgetCadastrado": "No budgets registered!",
+  "@mensagemSemBudgetCadastrado": {
+    "comment": "Message to the user if no budgets are registered"
+  },
+  "mensagemSemBudgetAtivo": "No active budgets!",
+  "@mensagemSemBudgetAtivo": {
+    "comment": "Message to the user if no active budgets exist"
+  },
+  "gastos": "Expenses",
+  "@gastos": {
+    "comment": "Word displayed on the card showing how much has been spent from the budget"
+  },
+  "mensagemConfirmacaoExlcusao": "Are you sure you want to delete this budget?",
+  "@mensagemConfirmacaoExlcusao": {
+    "comment": "Message to confirm that the user really wants to delete the budget"
+  },
+  "cancelar": "Cancel",
+  "@cancelar": {
+    "comment": "Cancel button"
+  },
+  "excluir": "Delete",
+  "@excluir": {
+    "comment": "Delete button"
+  },
+  "adicionarBudget": "Add New Budget",
+  "@adicionarBudget": {
+    "comment": "Title of the pop-up when adding a new budget"
+  },
+  "nomeBudget": "Budget Name",
+  "@nomeBudget": {
+    "comment": "Text for the field to enter the budget name"
+  },
+  "mensagemErroNomeBudget": "Please, enter the budget name",
+  "@mensagemErroNomeBudget": {
+    "comment": "Error message indicating that the entered budget name is invalid"
+  },
+  "valorMaximo": "Maximum Value",
+  "@valorMaximo": {
+    "comment": "Text for the field to enter the maximum budget value"
+  },
+  "mensagemErroValorVazioBudget": "Please, enter the maximum value",
+  "@mensagemErroValorVazioBudget": {
+    "comment": "Message indicating that the user cannot leave the value field empty when registering a budget"
+  },
+  "mensagemErroValorInvalidoBudget": "Please, enter a valid value",
+  "@mensagemErroValorInvalidoBudget": {
+    "comment": "Message indicating that the entered value is invalid"
+  },
+  "selecionarData": "Select Date",
+  "@selecionarData": {
+    "comment": "Text indicating that a date must be selected"
+  },
+  "dataEncerramento": "End Date",
+  "@dataEncerramento": {
+    "comment": "Text indicating the selected date"
+  },
+  "salvar": "Save",
+  "@salvar": {
+    "comment": "Save button"
+  },
+  "apenasAtivos": "Active Only",
+  "@apenasAtivos": {
+    "comment": "Text for the switch button to show only active budgets"
+  },
+  "adicionarGasto": "Add Expense",
+  "@adicionarGasto": {
+    "comment": "Text for the add expense title"
+  },
+  "nomeGasto": "Expense's name",
+  "@nomeGasto": {
+    "comment": "Name of the expense"
+  },
+  "valorGasto": "Expense's value",
+  "@valorGasto": {
+    "comment": "Value of the expense"
+  },
+  "mensagemErroNomeGasto": "Please, enter a name",
+  "@mensagemErroNomeGasto": {
+    "comment": "Text indicating a name has to be entered to proceed"
   }
-  
+}

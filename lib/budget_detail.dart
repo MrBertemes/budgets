@@ -43,8 +43,8 @@ class _BudgetDetailsPageState extends State<BudgetDetailsPage> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Adicionar Gasto',
-                  // S.of(context).,
+                  // 'Adicionar Gasto',
+                  S.of(context).adicionarGasto,
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                 ),
                 const SizedBox(height: 16),
@@ -55,18 +55,20 @@ class _BudgetDetailsPageState extends State<BudgetDetailsPage> {
                     children: [
                       _buildTextField(
                         textInputAction: TextInputAction.next,
-                        label: 'Nome do Gasto',
+                        // label: 'Nome do Gasto',
+                        label: S.of(context).nomeGasto,
                         onSaved: (value) => expenseName = value!,
                         validator:
                             (value) =>
                                 value == null || value.trim().isEmpty
-                                    ? 'Por favor, insira um nome'
-                                    // ? S.of(context).
+                                    // ? 'Por favor, insira um nome'
+                                    ? S.of(context).mensagemErroNomeGasto
                                     : null,
                       ),
                       const SizedBox(height: 12),
                       _buildTextField(
-                        label: 'Valor',
+                        // label: 'Valor',
+                        label: S.of(context).valorGasto,
                         textInputAction: TextInputAction.done,
                         keyboardType: const TextInputType.numberWithOptions(
                           decimal: true,
