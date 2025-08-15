@@ -3,7 +3,7 @@ import 'package:fin/add_budget.dart';
 import 'package:fin/budget_appbar.dart';
 import 'package:fin/budget_detail.dart';
 import 'package:fin/model/budget_service.dart';
-import 'package:fin/model/expense.dart';
+// import 'package:fin/model/expense.dart';
 import 'package:flutter/foundation.dart';
 import 'package:fin/model/budget.dart';
 import 'package:flutter/material.dart';
@@ -158,7 +158,7 @@ class _HomeState extends State<Home> {
               Budget budget =
                   isActiveFilter ? filteredBudgets[index] : budgets[index];
               
-              ValueNotifier<List<Expense>> exps =  ValueNotifier(budget.expenses); 
+              ValueNotifier<int> exps =  ValueNotifier(0); 
               return Padding(
                 padding: const EdgeInsets.symmetric(
                   vertical: 8.0,
@@ -211,7 +211,7 @@ class _HomeState extends State<Home> {
                           context,
                           MaterialPageRoute(
                             builder:
-                                (context) => BudgetDetailsPage(budget: budget),
+                                (context) => BudgetDetailsPage(budget: budget, update: exps),
                           ),
                         );
                       },
